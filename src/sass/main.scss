@@ -19,8 +19,8 @@
 span {
   // text-decoration: underline;
   // text-decoration-color: green;
-  border-bottom: 1px solid green;
-  padding-bottom: 10px;
+  border-bottom: 1px solid lightgreen;
+  padding-bottom: 5px;
 }
 .random-people {
   font-size: 12px;
@@ -30,6 +30,28 @@ span {
   margin-left: 95px;
 
 }
+
+.user-address {
+  color: grey;
+}
+
+.user-number {
+  color:grey;
+}
+
+.user-email {
+  color: lightgrey;
+}
+
+  .user-cell {
+    color: transparent;
+    text-shadow: 0 0 6px rgba(0,0,0,0.5);
+  }
+
+  .user-cell:hover {
+    color: transparent;
+    text-shadow: 0 0 0px lightgreen;
+  }
 
   .title-page {
     text-align: center;
