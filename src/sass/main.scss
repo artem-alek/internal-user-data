@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0px auto;
+  // max-width: 1400px;
+  text-transform: uppercase;
+
+.title-page {
+  margin-top: 42px;
+  font-size: 35px;
+  max-width: 1419;
+}
+.people-container{
+  width: 100%;
+  margin: 0px auto;
+}
+span {
+  // text-decoration: underline;
+  // text-decoration-color: green;
+  border-bottom: 1px solid green;
+  padding-bottom: 10px;
+}
+.random-people {
+  font-size: 12px;
+  display: inline-block;
+  max-width: 1419px;
+  margin-top: 29px;
+  margin-left: 95px;
+
+}
+
+  .title-page {
+    text-align: center;
+  }
+
+  .user-box {
+    display: inline-block;
+    width: 280px;
+    height: 520px;
+    text-align: center;
+    margin: 21px 8px 22px 8px;
+  }
+
+  .user-img {
+    width: 280px;
+    height: 280px;
+
+    img {
+      width: 280px;
+      height: 280px;
+    }
+  }
+}
